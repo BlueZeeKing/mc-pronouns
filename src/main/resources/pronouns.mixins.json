@@ -3,11 +3,8 @@
   "minVersion": "0.8",
   "package": "mx.ori.pronouns.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
   "client": [
-    "ChatHudMixin",
-    "InGameHudMixin",
+    "ClientPlayNetworkHandlerMixin",
     "PlayerListHudMixin"
   ],
   "injectors": {
